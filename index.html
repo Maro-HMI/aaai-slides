@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="refresh" content="4; url=s1a-slides/" />
+  <title>AAAI Slides — Art [&&] Impact</title>
+  <style>
+    /* ── Reset & base ───────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8f7f4;
+      color: #1a1a1a;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Layout ─────────────────────────────────────────────── */
+    .page {
+      max-width: 560px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 3rem;
+      flex: 1;
+    }
+
+    /* ── Header ─────────────────────────────────────────────── */
+    header {
+      margin-bottom: 2rem;
+    }
+
+    .course-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 0.6rem;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #111;
+    }
+
+    .subtitle {
+      margin-top: 0.35rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* ── Session list ───────────────────────────────────────── */
+    .sessions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-top: 1.75rem;
+    }
+
+    .session-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 1.1rem;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .session-card:hover,
+    .session-card:focus-visible {
+      border-color: #aaa;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      outline: none;
+    }
+
+    .session-card.latest {
+      border-color: #111;
+    }
+
+    .session-name {
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    .session-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .badge-latest {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: #111;
+      color: #fff;
+      padding: 0.2em 0.55em;
+      border-radius: 4px;
+    }
+
+    .arrow {
+      color: #bbb;
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    /* ── Redirect notice ────────────────────────────────────── */
+    .redirect-notice {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #aaa;
+      text-align: center;
+    }
+
+    /* ── Footer ─────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #ccc;
+      padding: 1.5rem 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <!-- ✏️ Edit course name, institution, or tagline here -->
+      <span class="course-tag">BSc Creative Technology · UT Twente / VU Amsterdam</span>
+      <h1>Art [&amp;&amp;] Impact</h1>
+      <p class="subtitle">Lecture &amp; workshop slides — 2025/26</p>
+    </header>
+
+    <!-- Session cards are generated here by deploy.sh — do not edit this comment marker -->
+    <nav class="sessions" aria-label="Sessions">
+      <a href="s1a-slides/" class="session-card latest"><span class="session-name">s1a-slides</span><span class="session-meta"><span class="badge-latest">Latest</span><span class="arrow">›</span></span></a>
+    </nav>
+
+    <p class="redirect-notice">
+      Redirecting to <strong>s1a-slides</strong> in a moment…
+    </p>
+
+  </div>
+
+  <!-- ✏️ Edit or remove this footer freely -->
+  <footer>
+    Art [&amp;&amp;] Impact · AAAI 2026
+  </footer>
+</body>
+</html>
