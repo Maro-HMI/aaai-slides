@@ -1,1 +1,0 @@
-import{o as t,b as s,w as a,i as r}from"./modules/vue-LowdqHr6.js";import{u as o}from"./slidev/context-_2KwLz7v.js";import{_ as n}from"./default-Dc92g7wn.js";const u={__name:"default-center",setup(_){return o(),(e,c)=>(t(),s(n,{class:"ns-default-center"},{default:a(()=>[r(e.$slots,"default")]),_:3}))}};export{u as _};
